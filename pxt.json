@@ -1,0 +1,24 @@
+{
+    "name": "TM1637",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "TM1637": "github:zhuning239/tm1637#bd4bd21a16d8fe50e29faf67b0a713494707b9a0",
+        "dht11": "github:zhuning239/dht11#e9d152762eda31cce33d4c1fd4b85b5854459385",
+        "cBit": "github:zhuning239/cbit#ae96557b0ab10734802922c79ee15fbfc20d9eb4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
